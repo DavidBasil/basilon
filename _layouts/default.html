@@ -9,13 +9,12 @@
 
 <header>
 	<h1>BASILON</h1>
-	<nav>
-		<li><a href="{{site.baseurl}}/index.html">About</a></li>
-		<li><a href="{{site.baseurl}}/projects.html">Projects</a></li>
-	</nav>
+	{% include nav.html %}
 </header>
 
 {{ content }}
+
+{% include footer.html %}
 
 </body>
 </html>
