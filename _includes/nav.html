@@ -1,5 +1,5 @@
 <nav>
-	<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/'%}current{% endif %}">About</a></li>
-	<li><a href="{{site.baseurl}}/projects.html" class="{% if page.url == '/projects.html'%}current{% endif %}">Projects</a></li>
-	<li><a href="{{site.baseurl}}/contact.html" class="{% if page.url == '/contact.html'%}current{% endif %}">Contact</a></li>
+	<li><a href="{{site.baseurl}}/index.html" {% if page.url == '/'%}class="current"{% endif %}>About</a></li>
+	<li><a href="{{site.baseurl}}/projects.html" {% if page.url == '/projects.html'%}class="current"{% endif %}>Projects</a></li>
+	<li><a href="{{site.baseurl}}/contact.html" {% if page.url == '/contact.html'%}class="current"{% endif %}>Contact</a></li>
 </nav>
