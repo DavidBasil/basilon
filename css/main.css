@@ -1,5 +1,5 @@
----
----
+.current {
+	background-color: brown;
+	color: lightblue;
+}
 
-{% include css/global.css %}
-{% include css/current.css %}
