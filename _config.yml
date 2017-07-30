@@ -1,2 +1,3 @@
 baseurl: /basilon
 exclude: ['README.md']
+permalink:  pretty

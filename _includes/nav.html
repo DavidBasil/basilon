@@ -1,5 +1,20 @@
-<nav>
-	<li><a href="{{site.baseurl}}/index.html" {% if page.url == '/'%}class="current"{% endif %}>About</a></li>
-	<li><a href="{{site.baseurl}}/projects.html" {% if page.url == '/projects.html'%}class="current"{% endif %}>Projects</a></li>
-	<li><a href="{{site.baseurl}}/contact.html" {% if page.url == '/contact.html'%}class="current"{% endif %}>Contact</a></li>
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<ul class="nav navbar-nav">
+			<li><a href="{{site.baseurl}}/">About</a></li>	
+			<li><a href="{{site.baseurl}}/construction">Construction</a></li>	
+			<li><a href="{{site.baseurl}}/hotel">Hotel</a></li>	
+			<li><a href="{{site.baseurl}}/agriculture">Agriculture</a></li>	
+		</ul>	
+		<div class="navbar-header text-center">
+			<a href="#">
+				<img src="{{site.baseurl}}/assets/img/logo.jpg"/>
+			</a>	
+		</div>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="{{site.baseurl}}/contact">Contact</a></li>	
+			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		</ul>
+	</div>
 </nav>
