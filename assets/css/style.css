@@ -1,13 +1,13 @@
-/* todo: form styles */
 @import url('https://fonts.googleapis.com/css?family=Bellefair');
 
 body {
 	line-height: 2;
 	font-size: 16px;
+	background-image: url("../img/brickwall.png");
 }
 
-.container {
-	margin-bottom: 150px;
+.jumbotron {
+	-webkit-animation-delay: 0.3s;
 }
 
 /* logo */
@@ -24,7 +24,9 @@ body {
 	font-weight: 600;
 	background-color: #3d1c06;
 	margin-bottom: 100px;
+	background: rgba(61, 28, 6, 0.9);
 }
+
 
 .navbar-header {
 	position: absolute;
@@ -35,10 +37,12 @@ body {
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
 	font-size: 20px;
+	-webkit-transition: 0.5s;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
 	color: #d3d01f;
+	font-size: 30px;
 }
 
 /* heading */
@@ -69,10 +73,12 @@ hr {
 	border-radius: 50%;
 	font-weight: 600;
 	margin-top: 20px;
+	-webkit-transition: 0.5s;
 }
 
 #submit-btn:hover {
 	color: #d3d01f;
+	transform: scale(1.1);
 }
 
 /* form */
@@ -86,8 +92,18 @@ hr {
 /* carousel */
 .carousel {
 	box-shadow: 3px 3px 10px 10px #ccc;
+	-webkit-transition: 0.8s;
 }
 
+.carousel:hover {
+	transform: scale(1.05);
+}
+
+.row p {
+k-webkit-animation-duration: 5s;
+}
+
+/* footer */
 .footer {
 	position: fixed;
 	bottom: 0;
@@ -97,7 +113,7 @@ hr {
 	color: #fff;
 	font-family: 'Bellefair', serif;
 	font-size: 20px;
-	background: rgba(122, 130, 136, 0.9);
+	background: rgba(61, 28, 6, 0.9);
 }
 
 
