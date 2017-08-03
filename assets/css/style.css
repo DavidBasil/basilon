@@ -60,7 +60,10 @@ hr {
 
 .row {
 	margin-bottom: 50px;
-	margin-top: 50px;
+}
+
+.row#const {
+	margin-top: 40px;
 }
 
 /* button */	
@@ -123,4 +126,9 @@ k-webkit-animation-duration: 5s;
 
 #myLink {
 	color: #82b1ff;
+}
+
+/* list */ 
+ul {
+	list-style-type: none;
 }
